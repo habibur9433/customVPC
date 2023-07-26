@@ -1,7 +1,10 @@
 # Custom VPC with Public and Private Subnets
 ![customVPC](https://github.com/habibur9433/customVPC/assets/136862285/d7294020-d43c-4f48-9759-18a8f199d718)
+
+
 One of the fundamental components of AWS infrastructure is the Virtual Private Cloud (VPC), a secure and isolated virtual network that allows users to build their customized network environments within the AWS cloud.
 In this guide, we will walk you through the process of setting up a custom VPC with two public and two private subnets. The public subnets will host essential components like a bastion host, which provides secure remote access to instances, and a Network Address Translation (NAT) gateway, enabling private instances to access the internet while remaining protected from direct exposure. Furthermore, we'll explore the necessary steps to create instances in both the public and private subnets, ensuring seamless communication and connectivity.
+
 Step 1: VPC Creatio
 Go to the AWS Management Console and navigate to the VPC Dashboard.
 Click on "Create VPC" and provide the required information:
